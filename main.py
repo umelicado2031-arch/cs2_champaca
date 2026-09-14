@@ -1,10 +1,13 @@
-# Odd or Even
+import math
 
-# Ask the user to input a number
-number = int(input("Enter a number: "))
+x1 = float(input("Enter x1:"))
+x2 = float(input("Enter x2:"))
+y1 = float(input("Enter y1:"))
+y2 = float(input("Enter y2:"))
 
-# Print whether or not the number input is odd or even
-if number % 2 == 0:
-    print("Output: Even")
-else:
-    print("Output: Odd")
+#distance = math.sqrt(pow(x2-x1,2)+pow(y2-y1,2))
+point_a=pow(x2-x1,2)
+point_b=pow(y2-y1,2)
+distance=math.sqrt(point_a+point_b)
+
+print("The distance: ", distance)
