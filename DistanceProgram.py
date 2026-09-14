@@ -2,10 +2,10 @@ import math
 
 # Ask the user to enter the coordinates of the first point
 x1 = float(input("Enter x1:"))
-x2 = float(input("Enter x2:"))
+y1 = float(input("Enter y1:"))
 
 # Ask the user to enter the coordinates of the second point
-y1 = float(input("Enter y1:"))
+x2 = float(input("Enter x2:"))
 y2 = float(input("Enter y2:"))
 
 # Compute the distance using the distance formula
